@@ -82,3 +82,40 @@ a {
     align-items: center;
     display: flex;
 }
+
+#information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 36px 0;
+}
+
+#information .container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 100px;
+}
+
+#information .image-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+#information img {
+    border: 5px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+#information p {
+    color: #1F2937;
+    font-size: 18px;
+    margin: 0;
+    overflow: wrap;
+    text-align: center;
+}
