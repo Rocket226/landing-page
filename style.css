@@ -119,3 +119,32 @@ a {
     overflow: wrap;
     text-align: center;
 }
+
+#quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#quote div {
+    display: flex;
+    flex-direction: column;
+    width: 800px
+}
+
+#quote i {
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+#quote span {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+}
