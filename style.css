@@ -11,6 +11,10 @@ header {
     color: #F9FAF8;
 }
 
+button {
+    cursor: pointer;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
