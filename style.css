@@ -148,3 +148,35 @@ a {
     font-weight: bold;
     font-size: 24px;
 }
+
+#CTA .container {
+    margin: 100px 25%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+#CTA h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#CTA p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#CTA button {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
